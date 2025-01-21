@@ -1,7 +1,7 @@
-﻿/* Copyright (C) radynamics, All Rights Reserved
+﻿/* Copyright (C) LUV NFT, All Rights Reserved
  * Unauthorized copying of this file, via any medium is strictly prohibited
  * Proprietary and confidential
- * Written by Reto Steimen <rsteimen@radynamics.com>, 2023
+ * Written by Wizard of Hahz <hahz@blkluv.org>, 2023
  */
 async function localizeAll(language, fallback, localesBasePath, onDone) {
     let preferredLocale = language.length < 2 ? fallback : language.substring(0, 2)
